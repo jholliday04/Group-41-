@@ -1,7 +1,8 @@
+ # Get stock details
 import yfinance as yf
 import pandas as pd
 stock = yf.Ticker("AAPL")
-print(stock.info)  # Get stock details
+print(stock.info)  
 
 # Sample ESG dataset
 data = {"Company": ["Tesla", "Apple"], "ESG Score": [85, 78]}
